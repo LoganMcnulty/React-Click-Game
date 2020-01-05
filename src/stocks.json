@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Tesla",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png"
+  },
+  {
+    "id": 2,
+    "name": "Apple",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/80px-Apple_logo_black.svg.png"
+  },
+  {
+    "id": 3,
+    "name": "Facebook",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/214px-Facebook_f_logo_%282019%29.svg.png"
+  },
+  {
+    "id": 4,
+    "name": "Starbucks",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/200px-Starbucks_Corporation_Logo_2011.svg.png"
+  },
+  {
+    "id": 5,
+    "name": "Activision/Blizzard",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Activision_Blizzard.svg/250px-Activision_Blizzard.svg.png"
+  },
+  {
+    "id": 6,
+    "name": "Microsoft",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/220px-Microsoft_logo_%282012%29.svg.png"
+  },
+  {
+    "id": 7,
+    "name": "Google",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/250px-Google_2015_logo.svg.png"
+  },
+  {
+    "id": 8,
+    "name": "Nike",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/220px-Logo_NIKE.svg.png"
+  },
+  {
+    "id": 9,
+    "name": "Twitter",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/100px-Twitter_bird_logo_2012.svg.png"
+  },
+  {
+    "id": 10,
+    "name": "Coca-Cola",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/220px-Coca-Cola_logo.svg.png"
+  },
+  {
+    "id": 11,
+    "name": "McDonalds",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/200px-McDonald%27s_Golden_Arches.svg.png"
+  },
+  {
+    "id": 12,
+    "name": "Target",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Target_Corporation_logo_%28vector%29.svg/150px-Target_Corporation_logo_%28vector%29.svg.png"
+  }
+]
