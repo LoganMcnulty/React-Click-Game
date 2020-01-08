@@ -26,11 +26,11 @@ const styles = {
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Header() {
   return (
-    <header style={styles.headerStyle} class="header">
+    <header style={styles.headerStyle} className="header">
       <h1 style={styles.hOneStyle}>
         Stock Market Memory Game     
-        <i class="fas fa-brain" style={styles.iStyle}></i>
-        <i class="fas fa-search-dollar" style={styles.iStyle}></i>
+        <i className="fas fa-brain" style={styles.iStyle}></i>
+        <i className="fas fa-search-dollar" style={styles.iStyle}></i>
       </h1>
       <h2>
         Click a stock's logo to earn points, but don't click the same logo more than once

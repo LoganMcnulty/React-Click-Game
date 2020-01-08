@@ -6,7 +6,7 @@ const styles = {
     minHeight: "70px",
     position: "fixed",
     width: "100%",
-    webkitBoxShadow: "0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22)",
+    WebkitBoxShadow: "0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22)",
     boxShadow: "0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22)",
     color: "#fff",
     fontSize: "calc(10px + 14 * (100vw - 320px)/ 800)",
@@ -30,14 +30,14 @@ const styles = {
 };
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar() {
+function Navbar(props) {
   return (
-    <nav style={styles.navbarStyle} class="navbar">
+    <nav style={styles.navbarStyle} className="navbar">
       <ul style={styles.ulStyle}>
-        <li style={styles.liStyle} class="brand">
+        <li style={styles.liStyle} className="brand">
           <a style={styles.aStyle} href="/">Stock Market Memory</a>
         </li>
-        <li style={styles.liStyle}>Score: 0 | High Score: 0</li>
+        <li style={styles.liStyle}>Score: {props.currScore} | High Score: {props.hiScore}</li>
       </ul>
     </nav>
   );

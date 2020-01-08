@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import "../../App.js"
 
 const styles = {
   card: {
@@ -33,10 +34,12 @@ const styles = {
 
 function StockCard(props) {
   return (
-    <div className="card" onClick={() => props.removeStock(props.id)} style={styles.card}>
-      <div className="img-container" style={styles.imgContainer}>
+    <div className="card" style={styles.card}>
+
+      <div id={props.id} onClick={() => props.clickStock(props.id)} className="img-container" style={styles.imgContainer}>
         <img alt={props.name} src={props.image} style={styles.image}/>
       </div>
+
     </div>
   );
 }
